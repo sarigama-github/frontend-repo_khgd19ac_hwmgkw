@@ -1,0 +1,19 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 270 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.10.125:3000/
+2:47:42 AM [vite] warning: This assignment will throw because "page" is a constant
+112|            }
+113|            // switch page reference
+114|            page = np
+   |            ^
+115|          }
+116|          page.drawText(l, { x, y, size: fontSize, font, color: rgb(0,0,0) })
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Generator.jsx
